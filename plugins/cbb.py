@@ -103,19 +103,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "start_data":
 
-        keyboard = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
-                    )
-                ],
-            ]
-        )
+        keyboard = InlineKeyboardMarkup ([
+                    [
+                        InlineKeyboardButton("❔Hᴇʟᴘ", callback_data="help_data"),
+                        InlineKeyboardButton("👁‍🗨 Aʙᴏᴜᴛ", callback_data="about_data"),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            "📜 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
+                            url="https://github.com/WKprabashwara/-Image-Editor",
+                        )
+                    ],
+                    [   InlineKeyboardButton("👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Imprabashwara")
+                    ],
+                ]
+            ),
 
         await query.message.edit_text(
             script.START_MSG.format(query.from_user.mention),
@@ -126,13 +128,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
-                    )
+                    InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="start_data"),
                 ],
             ]
         )
@@ -143,14 +139,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
-                    )
-                ],
+                        InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help_data"),
+                        InlineKeyboardButton("🔊 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ankivectorupdates")
+                    ],
             ]
         )
         await query.message.edit_text(

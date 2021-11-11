@@ -7,16 +7,15 @@ I'm a Image Editor Bot which Supports various modes
 For more click help....</b>"""
     HELP_MSG = """
     
-    <b>❔help Menu</b>
+<b>- How to use the Bot -</b>
     
-<b>Hello There👋 Follow these Steps</b><code>...</code>
+<b>Hello There👋 You can successfully edit a photo by following the instructions below😙🍃</b>
 
-<b>-</b> <code>Send me any Image to Edit...</code>
+• <code>Send me any Image to Edit...</code>
 
-<b>-</b> <code>Select the Corresponding mode that you need.</code>
+• <code>Select the Corresponding mode that you need.</code>
 
-<b>-</b> <code>Your Edited Image will be Uploaded.<b></code>
-
+• <code>Your Edited Image will be Uploaded.<b></code>
 
 <b>© @Imprabashwara </b>
 

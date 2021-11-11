@@ -5,16 +5,22 @@ class script(object):
 I'm a Image Editor Bot which Supports various modes
 
 For more click help....</b>"""
-    HELP_MSG = """Hai, Follow these Steps..
+    HELP_MSG = """
+    
+    <b>❔help Menu</b>
+    
+<b>Hello There👋 Follow these Steps</b><code>...</code>
 
-<code>🌀 Send me any Image to Edit..</code>
+<b>-</b> <code>Send me any Image to Edit...</code>
 
-<code>🌀 Select the Corresponding mode that you need</code>
+<b>-</b> <code>Select the Corresponding mode that you need.</code>
 
-<code>🌀 Your Edited Image will be Uploaded </code>
+<b>-</b> <code>Your Edited Image will be Uploaded.<b></code>
 
 
-© @TroJanzHEX"""
+<b>© @Imprabashwara </b>
+
+"""
     ABOUT_MSG = """
     
 -<b>My Name : Image Editor</b>

@@ -17,12 +17,10 @@ async def start(client: Client, message: Message):
                         InlineKeyboardButton("👁‍🗨 Aʙᴏᴜᴛ", callback_data="about_data"),
                     ],
                     [
-                        InlineKeyboardButton(
-                            "📜 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
-                            url="https://github.com/WKprabashwara/-Image-Editor",
-                        )
+                        InlineKeyboardButton("📜 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/WKprabashwara/-Image-Editor"),
                     ],
-                    [   InlineKeyboardButton("👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Imprabashwara")
+                    [   
+                        InlineKeyboardButton("👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Imprabashwara"),
                     ],
                 ]
             ),
@@ -61,7 +59,7 @@ async def about(client, message):
                 [
                     [
                         InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help_data"),
-                        InlineKeyboardButton("🔊 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ankivectorupdates")
+                        InlineKeyboardButton("🔊 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ankivectorupdates"),
                     ],
                 ]
             ),

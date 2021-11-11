@@ -42,13 +42,6 @@ async def help(client, message):
                 [
                     [
                         InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="start_data"),
-                        InlineKeyboardButton("👁‍🗨 Aʙᴏᴜᴛ", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "📜 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
-                            url="https://github.com/WKprabashwara/-Image-Editor",
-                        )
                     ],
                 ]
             ),
@@ -68,13 +61,6 @@ async def about(client, message):
                 [
                     [
                         InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help_data"),
-                        InlineKeyboardButton("☑️ ꜱᴛᴀʀᴛ", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "📜 Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
                     ],
                 ]
             ),

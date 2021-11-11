@@ -58,7 +58,7 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help_data"),
+                        InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="start_data"),
                         InlineKeyboardButton("🔊 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ankivectorupdates"),
                     ],
                 ]

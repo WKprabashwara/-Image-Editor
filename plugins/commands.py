@@ -61,6 +61,7 @@ async def about(client, message):
                 [
                     [
                         InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help_data"),
+                        InlineKeyboardButton("🔊 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ankivectorupdates")
                     ],
                 ]
             ),

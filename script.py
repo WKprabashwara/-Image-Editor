@@ -9,8 +9,7 @@ class script(object):
 
 <b>Use</b> /about <b>and</b> /help <b>for more information 😗💯<b>
     HELP_MSG = """
-    
-<b><u>❔How to use the Bot</u></b>
+<u><b>❔How to use the Bot</b></u>
     
 <b>Hello There👋 You can successfully edit a photo by following the instructions below😙🍃</b>
 
@@ -25,7 +24,7 @@ class script(object):
 """
     ABOUT_MSG = """
     
-<b><u>💡Information</u></b>
+<u><b>💡Information</b></u>
 
 • <b>Bot Name :</b> <code>Iᴍᴀɢᴇ Eᴅɪᴛʀᴏ</code>
 
